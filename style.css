@@ -1,0 +1,124 @@
+/* General Body Styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: #6a1b9a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Navigation Styling */
+nav ul {
+    background: #6a1b9a;
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    background: #4a148c;
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main h2, main h3 {
+    color: #6a1b9a;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+main h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 40px;
+    animation: fadeInUp 1s ease-in-out forwards; /* forwards ensures the final state is retained */
+}
+
+/* Image Styling */
+.section img {
+    max-width: 50%;  /* Adjusted maximum width */
+    max-height: 300px; /* Set a maximum height */
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;  /* Center the images */
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #6a1b9a;
+    color: #fff;
+    margin-top: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
